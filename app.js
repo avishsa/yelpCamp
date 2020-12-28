@@ -4,12 +4,17 @@ const mongoose = require('mongoose');
 const ejsMate = require('ejs-mate');
 const session = require('express-session');
 const flash = require('connect-flash');
+const passport = require('passport');
+const localStrategy = require('passport-local');
+const User = require('./models/user');
 
 const ExpressError = require('./utils/ExpressError');
 const methodOverride = require('method-override');
 
-const campgrounds = require('./routes/campgrounds');
-const reviews = require('./routes/reviews');
+const userRoutes =  require('./routes/users');
+const campgroundRoutes = require('./routes/campgrounds');
+const reviewRoutes = require('./routes/reviews');
+
 
 mongoose.connect('mongodb://localhost:27017/yelp-camp', {
     useNewUrlParser: true,
@@ -27,7 +32,7 @@ db.once("open", () => {
 const app = express();
 app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
-app.set('views',)
+app.set('views',path.join(__dirname, 'views'));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 app.use(express.static( path.join(__dirname, 'public')));
@@ -43,16 +48,31 @@ const sessionCofig = {
 };
 app.use(session(sessionCofig));
 app.use(flash());
+app.use(passport.initialize());
+app.use(passport.session());
+passport.use(new localStrategy(User.authenticate()));
+
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+
 
 app.use((req,res,next)=>{
+    console.log(req.session);
+    res.locals.currentUser = req.user ;
     res.locals.success = req.flash('success');
     res.locals.error = req.flash('error');
     next();
 });
 
+app.get('/mockUser',async (req,res)=>{
+    const usr = new User({email:'mockemail@example.com',username:'mock'});
+    const regUsr = await User.register(usr,'notaverygoodpassword');
+    res.send(regUsr);
 
-app.use('/campgrounds',campgrounds);
-app.use('/campgrounds/:id/reviews',reviews);
+});
+app.use('/',userRoutes);
+app.use('/campgrounds',campgroundRoutes);
+app.use('/campgrounds/:id/reviews',reviewRoutes);
 app.get('/', (req, res) => {
     res.render('home')
 })
