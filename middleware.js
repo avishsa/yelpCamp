@@ -13,6 +13,17 @@ module.exports.isAuthorize = (req,res,next) => {
     next();
 };
 
+module.exports.isAuthorizeReview = (req,res,next) => {
+    const { id } = req.params;
+    if (!req.isAuthenticated()) {
+        req.session.returnTo = `/campgrounds/${id}`;
+        req.flash('error', 'You have logged out! you cannot leave a review');
+        return res.redirect('/login');
+    }
+    console.log("authorized");
+    next();
+};
+
 module.exports.validateCampground = (req, res, next) => {
 
     const { error } = campgroundJSScheme.validate(req.body);
