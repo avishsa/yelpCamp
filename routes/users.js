@@ -20,6 +20,7 @@ router.post('/register', async (req, res,next) => {
             req.flash('success', 'Welcome to yelp camp');
             res.redirect('/campgrounds');
         });
+        console.log(registeredUser);
         
     }
     catch (error) {
