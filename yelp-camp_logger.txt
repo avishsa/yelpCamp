@@ -1,0 +1,1289 @@
+[33m[nodemon] 2.0.6[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+AVISHAG
+Serving on port 3000
+Database connected
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:40:58.301Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:40:58.321Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'goodbye' ] }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:40:58.442Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:40:59.827Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:41:04.249Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'welcome back' ] },
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:41:04.313Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:41:06.981Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:41:08.613Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+[Object: null prototype] {
+  campground: [Object: null prototype] {
+    title: 'Silent Cliffs',
+    location: 'West Allis, Wisconsin',
+    price: '19',
+    description: '                                                                                                                                                                                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptatum repellendus. Libero non explicabo voluptate porro optio, eius facere repudiandae exercitationem, in, eveniet nobis animi quidem nemo laborum vero vitae!\r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                '
+  },
+  deleteImages: [ 'YelpCamp/msfubdrl1sc9wgqz1rss' ]
+}
+{
+  cloudinary: {
+    config: [Function (anonymous)],
+    utils: {
+      VERSION: '1.23.0',
+      CF_SHARED_CDN: 'd3jpl91pxevbkh.cloudfront.net',
+      OLD_AKAMAI_SHARED_CDN: 'cloudinary-a.akamaihd.net',
+      AKAMAI_SHARED_CDN: 'res.cloudinary.com',
+      SHARED_CDN: 'res.cloudinary.com',
+      USER_AGENT: 'CloudinaryNodeJS/1.23.0',
+      userPlatform: '',
+      html_attrs: [Function: html_attrs],
+      create_source_tag: [Function: create_source_tag],
+      NOP: [Function (anonymous)],
+      generate_auth_token: [Function: generate_auth_token],
+      getUserAgent: [Function: getUserAgent],
+      build_upload_params: [Function: build_upload_params],
+      timestamp: [Function (anonymous)],
+      option_consume: [Function: consumeOption],
+      build_array: [Function: toArray],
+      encode_double_array: [Function: encodeDoubleArray],
+      encode_key_value: [Function: encode_key_value],
+      encode_context: [Function: encode_context],
+      build_eager: [Function: build_eager],
+      build_custom_headers: [Function: build_custom_headers],
+      generate_transformation_string: [Function: generate_transformation_string],
+      updateable_resource_params: [Function: updateable_resource_params],
+      extractUrlParams: [Function: extractUrlParams],
+      extractTransformationParams: [Function: extractTransformationParams],
+      patchFetchFormat: [Function: patchFetchFormat],
+      url: [Function: url],
+      video_url: [Function: video_url],
+      video_thumbnail_url: [Function: video_thumbnail_url],
+      api_url: [Function: api_url],
+      random_public_id: [Function: random_public_id],
+      signed_preloaded_image: [Function: signed_preloaded_image],
+      api_sign_request: [Function: api_sign_request],
+      clear_blank: [Function: clear_blank],
+      merge: [Function: merge],
+      sign_request: [Function: sign_request],
+      webhook_signature: [Function: webhook_signature],
+      verifyNotificationSignature: [Function: verifyNotificationSignature],
+      process_request_params: [Function: process_request_params],
+      private_download_url: [Function: private_download_url],
+      zip_download_url: [Function: zip_download_url],
+      download_archive_url: [Function: download_archive_url],
+      download_zip_url: [Function: download_zip_url],
+      cloudinary_js_config: [Function: cloudinary_js_config],
+      v1_adapters: [Function: v1_adapters],
+      as_safe_bool: [Function: as_safe_bool],
+      archive_params: [Function: archive_params],
+      build_explicit_api_params: [Function: build_explicit_api_params],
+      generate_responsive_breakpoints_string: [Function: generate_responsive_breakpoints_string],
+      build_streaming_profiles_param: [Function: build_streaming_profiles_param],
+      hashToParameters: [Function: hashToParameters],
+      present: [Function: present],
+      only: [Function: pickOnlyExistingValues],
+      pickOnlyExistingValues: [Function: pickOnlyExistingValues],
+      jsonArrayParam: [Function: jsonArrayParam],
+      download_folder: [Function: download_folder],
+      base_api_url: [Function: base_api_url],
+      download_backedup_asset: [Function: download_backedup_asset],
+      DEFAULT_POSTER_OPTIONS: [Object],
+      DEFAULT_VIDEO_SOURCE_TYPES: [Array],
+      at: [Function (anonymous)],
+      clone: [Function: clone],
+      extend: [Function (anonymous)],
+      filter: [Function: filter],
+      includes: [Function: includes],
+      isArray: [Function: isArray],
+      isEmpty: [Function: isEmpty],
+      isNumber: [Function: isNumber],
+      isObject: [Function: isObject],
+      isRemoteUrl: [Function: isRemoteUrl],
+      isString: [Function: isString],
+      isUndefined: [Function: isUndefined],
+      keys: [Function: keys],
+      ensurePresenceOf: [Function: ensurePresenceOf]
+    },
+    uploader: {
+      unsigned_upload_stream: [Function (anonymous)],
+      upload_stream: [Function (anonymous)],
+      unsigned_upload: [Function (anonymous)],
+      upload: [Function (anonymous)],
+      upload_large_part: [Function (anonymous)],
+      upload_large: [Function (anonymous)],
+      upload_chunked: [Function (anonymous)],
+      upload_chunked_stream: [Function (anonymous)],
+      explicit: [Function (anonymous)],
+      destroy: [Function (anonymous)],
+      rename: [Function (anonymous)],
+      text: [Function (anonymous)],
+      generate_sprite: [Function (anonymous)],
+      multi: [Function (anonymous)],
+      explode: [Function (anonymous)],
+      add_tag: [Function (anonymous)],
+      remove_tag: [Function (anonymous)],
+      remove_all_tags: [Function (anonymous)],
+      add_context: [Function (anonymous)],
+      remove_all_context: [Function (anonymous)],
+      replace_tag: [Function (anonymous)],
+      create_archive: [Function (anonymous)],
+      create_zip: [Function (anonymous)],
+      update_metadata: [Function (anonymous)],
+      direct_upload: [Function: direct_upload],
+      upload_tag_params: [Function: upload_tag_params],
+      upload_url: [Function: upload_url],
+      image_upload_tag: [Function: image_upload_tag],
+      unsigned_image_upload_tag: [Function: unsigned_image_upload_tag]
+    },
+    api: {
+      ping: [Function (anonymous)],
+      usage: [Function (anonymous)],
+      resource_types: [Function (anonymous)],
+      resources: [Function (anonymous)],
+      resources_by_tag: [Function (anonymous)],
+      resources_by_context: [Function (anonymous)],
+      resources_by_moderation: [Function (anonymous)],
+      resources_by_ids: [Function (anonymous)],
+      resource: [Function (anonymous)],
+      restore: [Function (anonymous)],
+      update: [Function (anonymous)],
+      delete_resources: [Function (anonymous)],
+      delete_resources_by_prefix: [Function (anonymous)],
+      delete_resources_by_tag: [Function (anonymous)],
+      delete_all_resources: [Function (anonymous)],
+      delete_derived_resources: [Function (anonymous)],
+      tags: [Function (anonymous)],
+      transformations: [Function (anonymous)],
+      transformation: [Function (anonymous)],
+      delete_transformation: [Function (anonymous)],
+      update_transformation: [Function (anonymous)],
+      create_transformation: [Function (anonymous)],
+      upload_presets: [Function (anonymous)],
+      upload_preset: [Function (anonymous)],
+      delete_upload_preset: [Function (anonymous)],
+      update_upload_preset: [Function (anonymous)],
+      create_upload_preset: [Function (anonymous)],
+      root_folders: [Function (anonymous)],
+      sub_folders: [Function (anonymous)],
+      delete_folder: [Function (anonymous)],
+      create_folder: [Function (anonymous)],
+      upload_mappings: [Function (anonymous)],
+      upload_mapping: [Function (anonymous)],
+      delete_upload_mapping: [Function (anonymous)],
+      update_upload_mapping: [Function (anonymous)],
+      create_upload_mapping: [Function (anonymous)],
+      list_streaming_profiles: [Function (anonymous)],
+      get_streaming_profile: [Function (anonymous)],
+      delete_streaming_profile: [Function (anonymous)],
+      update_streaming_profile: [Function (anonymous)],
+      create_streaming_profile: [Function (anonymous)],
+      publish_by_ids: [Function (anonymous)],
+      publish_by_tag: [Function (anonymous)],
+      publish_by_prefix: [Function (anonymous)],
+      update_resources_access_mode_by_prefix: [Function (anonymous)],
+      update_resources_access_mode_by_tag: [Function (anonymous)],
+      update_resources_access_mode_by_ids: [Function (anonymous)],
+      search: [Function (anonymous)],
+      delete_derived_by_transformation: [Function (anonymous)],
+      add_metadata_field: [Function (anonymous)],
+      list_metadata_fields: [Function (anonymous)],
+      delete_metadata_field: [Function (anonymous)],
+      metadata_field_by_field_id: [Function (anonymous)],
+      update_metadata_field: [Function (anonymous)],
+      update_metadata_field_datasource: [Function (anonymous)],
+      delete_datasource_entries: [Function (anonymous)],
+      restore_metadata_field_datasource: [Function (anonymous)]
+    },
+    provisioning: { account: [Object] },
+    PreloadedFile: [class PreloadedFile],
+    Cache: {
+      CacheAdapter: [class CacheAdapter],
+      setAdapter: [Function: setAdapter],
+      getAdapter: [Function: getAdapter],
+      get: [Function: get],
+      set: [Function: set],
+      flushAll: [Function: flushAll]
+    },
+    url: [Function: url],
+    image: [Function: image],
+    video: [Function: video],
+    source: [Function: source],
+    picture: [Function: picture],
+    cloudinary_js_config: [Function: cloudinary_js_config],
+    CF_SHARED_CDN: 'd3jpl91pxevbkh.cloudfront.net',
+    AKAMAI_SHARED_CDN: 'res.cloudinary.com',
+    SHARED_CDN: 'res.cloudinary.com',
+    BLANK: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+    search: [class Search]
+  },
+  storage: CloudinaryStorage {
+    cloudinary: {
+      config: [Function (anonymous)],
+      utils: [Object],
+      uploader: [Object],
+      api: [Object],
+      provisioning: [Object],
+      PreloadedFile: [class PreloadedFile],
+      Cache: [Object],
+      url: [Function: url],
+      image: [Function: image],
+      video: [Function: video],
+      source: [Function: source],
+      picture: [Function: picture],
+      cloudinary_js_config: [Function: cloudinary_js_config],
+      CF_SHARED_CDN: 'd3jpl91pxevbkh.cloudfront.net',
+      AKAMAI_SHARED_CDN: 'res.cloudinary.com',
+      SHARED_CDN: 'res.cloudinary.com',
+      BLANK: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+      search: [class Search]
+    },
+    params: {
+      folder: 'YelpCamp',
+      allowed_formats: [Array],
+      format: [AsyncFunction: format]
+    }
+  }
+}
+undefined
+TypeError: Cannot read property 'destroy' of undefined
+    at module.exports.updateCampground (C:\Users\DELL\Documents\mini projects\yelpCamp\controllers\camgrounds.js:52:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+AVISHAG
+Serving on port 3000
+Database connected
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:44:58.879Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:44:58.898Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'goodbye' ] }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:44:59.068Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:45:00.304Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:45:01.612Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:45:06.441Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'welcome back' ] },
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:45:06.514Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:45:09.469Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T06:45:12.605Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+[Object: null prototype] {
+  campground: [Object: null prototype] {
+    title: 'Silent Cliffs',
+    location: 'West Allis, Wisconsin',
+    price: '19',
+    description: '                                                                                                                                                                                                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptatum repellendus. Libero non explicabo voluptate porro optio, eius facere repudiandae exercitationem, in, eveniet nobis animi quidem nemo laborum vero vitae!\r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                \r\n' +
+      '                '
+  },
+  deleteImages: [ 'YelpCamp/msfubdrl1sc9wgqz1rss' ]
+}
+undefined
+undefined
+TypeError: Cannot read property 'destroy' of undefined
+    at module.exports.updateCampground (C:\Users\DELL\Documents\mini projects\yelpCamp\controllers\camgrounds.js:52:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+AVISHAG
+Serving on port 3000
+Database connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+AVISHAG
+Serving on port 3000
+Database connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+AVISHAG
+Serving on port 3000
+Database connected
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+AVISHAG
+Serving on port 3000
+Database connected
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:16:42.794Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:16:42.809Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'goodbye' ] }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:16:42.950Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:16:44.085Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:16:48.126Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'welcome back' ] },
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:16:48.179Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:16:51.039Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:16:53.613Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+ReferenceError: error is not defined
+    at module.exports.updateCampground (C:\Users\DELL\Documents\mini projects\yelpCamp\controllers\camgrounds.js:53:37)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+AVISHAG
+Serving on port 3000
+Database connected
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:17:09.954Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:17:09.969Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'goodbye' ] }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:17:10.079Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:17:10.847Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:17:15.073Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'welcome back' ] },
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:17:15.131Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:17:18.717Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:17:21.201Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+error TypeError: Cannot read property 'destroy' of undefined
+    at module.exports.updateCampground (C:\Users\DELL\Documents\mini projects\yelpCamp\controllers\camgrounds.js:50:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:17:23.883Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { error: [ {} ] },
+  passport: { user: 'avishag' }
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+AVISHAG
+Serving on port 3000
+Database connected
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:18:23.714Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:18:23.731Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'goodbye' ] }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:18:23.853Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:18:24.859Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:18:31.710Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'welcome back' ] },
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:18:31.774Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:18:34.396Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:18:36.217Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+error {
+  cloudinary: {
+    config: [Function (anonymous)],
+    utils: {
+      VERSION: '1.23.0',
+      CF_SHARED_CDN: 'd3jpl91pxevbkh.cloudfront.net',
+      OLD_AKAMAI_SHARED_CDN: 'cloudinary-a.akamaihd.net',
+      AKAMAI_SHARED_CDN: 'res.cloudinary.com',
+      SHARED_CDN: 'res.cloudinary.com',
+      USER_AGENT: 'CloudinaryNodeJS/1.23.0',
+      userPlatform: '',
+      html_attrs: [Function: html_attrs],
+      create_source_tag: [Function: create_source_tag],
+      NOP: [Function (anonymous)],
+      generate_auth_token: [Function: generate_auth_token],
+      getUserAgent: [Function: getUserAgent],
+      build_upload_params: [Function: build_upload_params],
+      timestamp: [Function (anonymous)],
+      option_consume: [Function: consumeOption],
+      build_array: [Function: toArray],
+      encode_double_array: [Function: encodeDoubleArray],
+      encode_key_value: [Function: encode_key_value],
+      encode_context: [Function: encode_context],
+      build_eager: [Function: build_eager],
+      build_custom_headers: [Function: build_custom_headers],
+      generate_transformation_string: [Function: generate_transformation_string],
+      updateable_resource_params: [Function: updateable_resource_params],
+      extractUrlParams: [Function: extractUrlParams],
+      extractTransformationParams: [Function: extractTransformationParams],
+      patchFetchFormat: [Function: patchFetchFormat],
+      url: [Function: url],
+      video_url: [Function: video_url],
+      video_thumbnail_url: [Function: video_thumbnail_url],
+      api_url: [Function: api_url],
+      random_public_id: [Function: random_public_id],
+      signed_preloaded_image: [Function: signed_preloaded_image],
+      api_sign_request: [Function: api_sign_request],
+      clear_blank: [Function: clear_blank],
+      merge: [Function: merge],
+      sign_request: [Function: sign_request],
+      webhook_signature: [Function: webhook_signature],
+      verifyNotificationSignature: [Function: verifyNotificationSignature],
+      process_request_params: [Function: process_request_params],
+      private_download_url: [Function: private_download_url],
+      zip_download_url: [Function: zip_download_url],
+      download_archive_url: [Function: download_archive_url],
+      download_zip_url: [Function: download_zip_url],
+      cloudinary_js_config: [Function: cloudinary_js_config],
+      v1_adapters: [Function: v1_adapters],
+      as_safe_bool: [Function: as_safe_bool],
+      archive_params: [Function: archive_params],
+      build_explicit_api_params: [Function: build_explicit_api_params],
+      generate_responsive_breakpoints_string: [Function: generate_responsive_breakpoints_string],
+      build_streaming_profiles_param: [Function: build_streaming_profiles_param],
+      hashToParameters: [Function: hashToParameters],
+      present: [Function: present],
+      only: [Function: pickOnlyExistingValues],
+      pickOnlyExistingValues: [Function: pickOnlyExistingValues],
+      jsonArrayParam: [Function: jsonArrayParam],
+      download_folder: [Function: download_folder],
+      base_api_url: [Function: base_api_url],
+      download_backedup_asset: [Function: download_backedup_asset],
+      DEFAULT_POSTER_OPTIONS: [Object],
+      DEFAULT_VIDEO_SOURCE_TYPES: [Array],
+      at: [Function (anonymous)],
+      clone: [Function: clone],
+      extend: [Function (anonymous)],
+      filter: [Function: filter],
+      includes: [Function: includes],
+      isArray: [Function: isArray],
+      isEmpty: [Function: isEmpty],
+      isNumber: [Function: isNumber],
+      isObject: [Function: isObject],
+      isRemoteUrl: [Function: isRemoteUrl],
+      isString: [Function: isString],
+      isUndefined: [Function: isUndefined],
+      keys: [Function: keys],
+      ensurePresenceOf: [Function: ensurePresenceOf]
+    },
+    uploader: {
+      unsigned_upload_stream: [Function (anonymous)],
+      upload_stream: [Function (anonymous)],
+      unsigned_upload: [Function (anonymous)],
+      upload: [Function (anonymous)],
+      upload_large_part: [Function (anonymous)],
+      upload_large: [Function (anonymous)],
+      upload_chunked: [Function (anonymous)],
+      upload_chunked_stream: [Function (anonymous)],
+      explicit: [Function (anonymous)],
+      destroy: [Function (anonymous)],
+      rename: [Function (anonymous)],
+      text: [Function (anonymous)],
+      generate_sprite: [Function (anonymous)],
+      multi: [Function (anonymous)],
+      explode: [Function (anonymous)],
+      add_tag: [Function (anonymous)],
+      remove_tag: [Function (anonymous)],
+      remove_all_tags: [Function (anonymous)],
+      add_context: [Function (anonymous)],
+      remove_all_context: [Function (anonymous)],
+      replace_tag: [Function (anonymous)],
+      create_archive: [Function (anonymous)],
+      create_zip: [Function (anonymous)],
+      update_metadata: [Function (anonymous)],
+      direct_upload: [Function: direct_upload],
+      upload_tag_params: [Function: upload_tag_params],
+      upload_url: [Function: upload_url],
+      image_upload_tag: [Function: image_upload_tag],
+      unsigned_image_upload_tag: [Function: unsigned_image_upload_tag]
+    },
+    api: {
+      ping: [Function (anonymous)],
+      usage: [Function (anonymous)],
+      resource_types: [Function (anonymous)],
+      resources: [Function (anonymous)],
+      resources_by_tag: [Function (anonymous)],
+      resources_by_context: [Function (anonymous)],
+      resources_by_moderation: [Function (anonymous)],
+      resources_by_ids: [Function (anonymous)],
+      resource: [Function (anonymous)],
+      restore: [Function (anonymous)],
+      update: [Function (anonymous)],
+      delete_resources: [Function (anonymous)],
+      delete_resources_by_prefix: [Function (anonymous)],
+      delete_resources_by_tag: [Function (anonymous)],
+      delete_all_resources: [Function (anonymous)],
+      delete_derived_resources: [Function (anonymous)],
+      tags: [Function (anonymous)],
+      transformations: [Function (anonymous)],
+      transformation: [Function (anonymous)],
+      delete_transformation: [Function (anonymous)],
+      update_transformation: [Function (anonymous)],
+      create_transformation: [Function (anonymous)],
+      upload_presets: [Function (anonymous)],
+      upload_preset: [Function (anonymous)],
+      delete_upload_preset: [Function (anonymous)],
+      update_upload_preset: [Function (anonymous)],
+      create_upload_preset: [Function (anonymous)],
+      root_folders: [Function (anonymous)],
+      sub_folders: [Function (anonymous)],
+      delete_folder: [Function (anonymous)],
+      create_folder: [Function (anonymous)],
+      upload_mappings: [Function (anonymous)],
+      upload_mapping: [Function (anonymous)],
+      delete_upload_mapping: [Function (anonymous)],
+      update_upload_mapping: [Function (anonymous)],
+      create_upload_mapping: [Function (anonymous)],
+      list_streaming_profiles: [Function (anonymous)],
+      get_streaming_profile: [Function (anonymous)],
+      delete_streaming_profile: [Function (anonymous)],
+      update_streaming_profile: [Function (anonymous)],
+      create_streaming_profile: [Function (anonymous)],
+      publish_by_ids: [Function (anonymous)],
+      publish_by_tag: [Function (anonymous)],
+      publish_by_prefix: [Function (anonymous)],
+      update_resources_access_mode_by_prefix: [Function (anonymous)],
+      update_resources_access_mode_by_tag: [Function (anonymous)],
+      update_resources_access_mode_by_ids: [Function (anonymous)],
+      search: [Function (anonymous)],
+      delete_derived_by_transformation: [Function (anonymous)],
+      add_metadata_field: [Function (anonymous)],
+      list_metadata_fields: [Function (anonymous)],
+      delete_metadata_field: [Function (anonymous)],
+      metadata_field_by_field_id: [Function (anonymous)],
+      update_metadata_field: [Function (anonymous)],
+      update_metadata_field_datasource: [Function (anonymous)],
+      delete_datasource_entries: [Function (anonymous)],
+      restore_metadata_field_datasource: [Function (anonymous)]
+    },
+    provisioning: { account: [Object] },
+    PreloadedFile: [class PreloadedFile],
+    Cache: {
+      CacheAdapter: [class CacheAdapter],
+      setAdapter: [Function: setAdapter],
+      getAdapter: [Function: getAdapter],
+      get: [Function: get],
+      set: [Function: set],
+      flushAll: [Function: flushAll]
+    },
+    url: [Function: url],
+    image: [Function: image],
+    video: [Function: video],
+    source: [Function: source],
+    picture: [Function: picture],
+    cloudinary_js_config: [Function: cloudinary_js_config],
+    CF_SHARED_CDN: 'd3jpl91pxevbkh.cloudfront.net',
+    AKAMAI_SHARED_CDN: 'res.cloudinary.com',
+    SHARED_CDN: 'res.cloudinary.com',
+    BLANK: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+    search: [class Search]
+  },
+  storage: CloudinaryStorage {
+    cloudinary: {
+      config: [Function (anonymous)],
+      utils: [Object],
+      uploader: [Object],
+      api: [Object],
+      provisioning: [Object],
+      PreloadedFile: [class PreloadedFile],
+      Cache: [Object],
+      url: [Function: url],
+      image: [Function: image],
+      video: [Function: video],
+      source: [Function: source],
+      picture: [Function: picture],
+      cloudinary_js_config: [Function: cloudinary_js_config],
+      CF_SHARED_CDN: 'd3jpl91pxevbkh.cloudfront.net',
+      AKAMAI_SHARED_CDN: 'res.cloudinary.com',
+      SHARED_CDN: 'res.cloudinary.com',
+      BLANK: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+      search: [class Search]
+    },
+    params: {
+      folder: 'YelpCamp',
+      allowed_formats: [Array],
+      format: [AsyncFunction: format]
+    }
+  }
+} undefined TypeError: Cannot read property 'destroy' of undefined
+    at module.exports.updateCampground (C:\Users\DELL\Documents\mini projects\yelpCamp\controllers\camgrounds.js:50:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:18:39.865Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { error: [ {} ] },
+  passport: { user: 'avishag' }
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+AVISHAG
+Serving on port 3000
+Database connected
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:19:46.226Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:19:46.239Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'goodbye' ] }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:19:46.340Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:19:48.063Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:19:51.608Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {}
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:19:56.025Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { success: [ 'welcome back' ] },
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:19:56.081Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:19:58.292Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:20:00.824Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: {},
+  passport: { user: 'avishag' }
+}
+authorized
+is the author
+error {
+  cloudinary: {
+    config: [Function (anonymous)],
+    utils: {
+      VERSION: '1.23.0',
+      CF_SHARED_CDN: 'd3jpl91pxevbkh.cloudfront.net',
+      OLD_AKAMAI_SHARED_CDN: 'cloudinary-a.akamaihd.net',
+      AKAMAI_SHARED_CDN: 'res.cloudinary.com',
+      SHARED_CDN: 'res.cloudinary.com',
+      USER_AGENT: 'CloudinaryNodeJS/1.23.0',
+      userPlatform: '',
+      html_attrs: [Function: html_attrs],
+      create_source_tag: [Function: create_source_tag],
+      NOP: [Function (anonymous)],
+      generate_auth_token: [Function: generate_auth_token],
+      getUserAgent: [Function: getUserAgent],
+      build_upload_params: [Function: build_upload_params],
+      timestamp: [Function (anonymous)],
+      option_consume: [Function: consumeOption],
+      build_array: [Function: toArray],
+      encode_double_array: [Function: encodeDoubleArray],
+      encode_key_value: [Function: encode_key_value],
+      encode_context: [Function: encode_context],
+      build_eager: [Function: build_eager],
+      build_custom_headers: [Function: build_custom_headers],
+      generate_transformation_string: [Function: generate_transformation_string],
+      updateable_resource_params: [Function: updateable_resource_params],
+      extractUrlParams: [Function: extractUrlParams],
+      extractTransformationParams: [Function: extractTransformationParams],
+      patchFetchFormat: [Function: patchFetchFormat],
+      url: [Function: url],
+      video_url: [Function: video_url],
+      video_thumbnail_url: [Function: video_thumbnail_url],
+      api_url: [Function: api_url],
+      random_public_id: [Function: random_public_id],
+      signed_preloaded_image: [Function: signed_preloaded_image],
+      api_sign_request: [Function: api_sign_request],
+      clear_blank: [Function: clear_blank],
+      merge: [Function: merge],
+      sign_request: [Function: sign_request],
+      webhook_signature: [Function: webhook_signature],
+      verifyNotificationSignature: [Function: verifyNotificationSignature],
+      process_request_params: [Function: process_request_params],
+      private_download_url: [Function: private_download_url],
+      zip_download_url: [Function: zip_download_url],
+      download_archive_url: [Function: download_archive_url],
+      download_zip_url: [Function: download_zip_url],
+      cloudinary_js_config: [Function: cloudinary_js_config],
+      v1_adapters: [Function: v1_adapters],
+      as_safe_bool: [Function: as_safe_bool],
+      archive_params: [Function: archive_params],
+      build_explicit_api_params: [Function: build_explicit_api_params],
+      generate_responsive_breakpoints_string: [Function: generate_responsive_breakpoints_string],
+      build_streaming_profiles_param: [Function: build_streaming_profiles_param],
+      hashToParameters: [Function: hashToParameters],
+      present: [Function: present],
+      only: [Function: pickOnlyExistingValues],
+      pickOnlyExistingValues: [Function: pickOnlyExistingValues],
+      jsonArrayParam: [Function: jsonArrayParam],
+      download_folder: [Function: download_folder],
+      base_api_url: [Function: base_api_url],
+      download_backedup_asset: [Function: download_backedup_asset],
+      DEFAULT_POSTER_OPTIONS: [Object],
+      DEFAULT_VIDEO_SOURCE_TYPES: [Array],
+      at: [Function (anonymous)],
+      clone: [Function: clone],
+      extend: [Function (anonymous)],
+      filter: [Function: filter],
+      includes: [Function: includes],
+      isArray: [Function: isArray],
+      isEmpty: [Function: isEmpty],
+      isNumber: [Function: isNumber],
+      isObject: [Function: isObject],
+      isRemoteUrl: [Function: isRemoteUrl],
+      isString: [Function: isString],
+      isUndefined: [Function: isUndefined],
+      keys: [Function: keys],
+      ensurePresenceOf: [Function: ensurePresenceOf]
+    },
+    uploader: {
+      unsigned_upload_stream: [Function (anonymous)],
+      upload_stream: [Function (anonymous)],
+      unsigned_upload: [Function (anonymous)],
+      upload: [Function (anonymous)],
+      upload_large_part: [Function (anonymous)],
+      upload_large: [Function (anonymous)],
+      upload_chunked: [Function (anonymous)],
+      upload_chunked_stream: [Function (anonymous)],
+      explicit: [Function (anonymous)],
+      destroy: [Function (anonymous)],
+      rename: [Function (anonymous)],
+      text: [Function (anonymous)],
+      generate_sprite: [Function (anonymous)],
+      multi: [Function (anonymous)],
+      explode: [Function (anonymous)],
+      add_tag: [Function (anonymous)],
+      remove_tag: [Function (anonymous)],
+      remove_all_tags: [Function (anonymous)],
+      add_context: [Function (anonymous)],
+      remove_all_context: [Function (anonymous)],
+      replace_tag: [Function (anonymous)],
+      create_archive: [Function (anonymous)],
+      create_zip: [Function (anonymous)],
+      update_metadata: [Function (anonymous)],
+      direct_upload: [Function: direct_upload],
+      upload_tag_params: [Function: upload_tag_params],
+      upload_url: [Function: upload_url],
+      image_upload_tag: [Function: image_upload_tag],
+      unsigned_image_upload_tag: [Function: unsigned_image_upload_tag]
+    },
+    api: {
+      ping: [Function (anonymous)],
+      usage: [Function (anonymous)],
+      resource_types: [Function (anonymous)],
+      resources: [Function (anonymous)],
+      resources_by_tag: [Function (anonymous)],
+      resources_by_context: [Function (anonymous)],
+      resources_by_moderation: [Function (anonymous)],
+      resources_by_ids: [Function (anonymous)],
+      resource: [Function (anonymous)],
+      restore: [Function (anonymous)],
+      update: [Function (anonymous)],
+      delete_resources: [Function (anonymous)],
+      delete_resources_by_prefix: [Function (anonymous)],
+      delete_resources_by_tag: [Function (anonymous)],
+      delete_all_resources: [Function (anonymous)],
+      delete_derived_resources: [Function (anonymous)],
+      tags: [Function (anonymous)],
+      transformations: [Function (anonymous)],
+      transformation: [Function (anonymous)],
+      delete_transformation: [Function (anonymous)],
+      update_transformation: [Function (anonymous)],
+      create_transformation: [Function (anonymous)],
+      upload_presets: [Function (anonymous)],
+      upload_preset: [Function (anonymous)],
+      delete_upload_preset: [Function (anonymous)],
+      update_upload_preset: [Function (anonymous)],
+      create_upload_preset: [Function (anonymous)],
+      root_folders: [Function (anonymous)],
+      sub_folders: [Function (anonymous)],
+      delete_folder: [Function (anonymous)],
+      create_folder: [Function (anonymous)],
+      upload_mappings: [Function (anonymous)],
+      upload_mapping: [Function (anonymous)],
+      delete_upload_mapping: [Function (anonymous)],
+      update_upload_mapping: [Function (anonymous)],
+      create_upload_mapping: [Function (anonymous)],
+      list_streaming_profiles: [Function (anonymous)],
+      get_streaming_profile: [Function (anonymous)],
+      delete_streaming_profile: [Function (anonymous)],
+      update_streaming_profile: [Function (anonymous)],
+      create_streaming_profile: [Function (anonymous)],
+      publish_by_ids: [Function (anonymous)],
+      publish_by_tag: [Function (anonymous)],
+      publish_by_prefix: [Function (anonymous)],
+      update_resources_access_mode_by_prefix: [Function (anonymous)],
+      update_resources_access_mode_by_tag: [Function (anonymous)],
+      update_resources_access_mode_by_ids: [Function (anonymous)],
+      search: [Function (anonymous)],
+      delete_derived_by_transformation: [Function (anonymous)],
+      add_metadata_field: [Function (anonymous)],
+      list_metadata_fields: [Function (anonymous)],
+      delete_metadata_field: [Function (anonymous)],
+      metadata_field_by_field_id: [Function (anonymous)],
+      update_metadata_field: [Function (anonymous)],
+      update_metadata_field_datasource: [Function (anonymous)],
+      delete_datasource_entries: [Function (anonymous)],
+      restore_metadata_field_datasource: [Function (anonymous)]
+    },
+    provisioning: { account: [Object] },
+    PreloadedFile: [class PreloadedFile],
+    Cache: {
+      CacheAdapter: [class CacheAdapter],
+      setAdapter: [Function: setAdapter],
+      getAdapter: [Function: getAdapter],
+      get: [Function: get],
+      set: [Function: set],
+      flushAll: [Function: flushAll]
+    },
+    url: [Function: url],
+    image: [Function: image],
+    video: [Function: video],
+    source: [Function: source],
+    picture: [Function: picture],
+    cloudinary_js_config: [Function: cloudinary_js_config],
+    CF_SHARED_CDN: 'd3jpl91pxevbkh.cloudfront.net',
+    AKAMAI_SHARED_CDN: 'res.cloudinary.com',
+    SHARED_CDN: 'res.cloudinary.com',
+    BLANK: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+    search: [class Search]
+  },
+  storage: CloudinaryStorage {
+    cloudinary: {
+      config: [Function (anonymous)],
+      utils: [Object],
+      uploader: [Object],
+      api: [Object],
+      provisioning: [Object],
+      PreloadedFile: [class PreloadedFile],
+      Cache: [Object],
+      url: [Function: url],
+      image: [Function: image],
+      video: [Function: video],
+      source: [Function: source],
+      picture: [Function: picture],
+      cloudinary_js_config: [Function: cloudinary_js_config],
+      CF_SHARED_CDN: 'd3jpl91pxevbkh.cloudfront.net',
+      AKAMAI_SHARED_CDN: 'res.cloudinary.com',
+      SHARED_CDN: 'res.cloudinary.com',
+      BLANK: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7',
+      search: [class Search]
+    },
+    params: {
+      folder: 'YelpCamp',
+      allowed_formats: [Array],
+      format: [AsyncFunction: format]
+    }
+  }
+} undefined TypeError: Cannot read property 'uploader' of undefined
+    at module.exports.updateCampground (C:\Users\DELL\Documents\mini projects\yelpCamp\controllers\camgrounds.js:50:39)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Session {
+  cookie: {
+    path: '/',
+    _expires: 2021-01-07T07:20:05.699Z,
+    originalMaxAge: 604800000,
+    httpOnly: true
+  },
+  flash: { error: [ {} ] },
+  passport: { user: 'avishag' }
+}
+Terminate batch job (Y/N)? 
