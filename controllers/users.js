@@ -14,7 +14,6 @@ module.exports.registerUser = async (req, res) => {
             req.flash('success', 'Welcome to yelp camp');
             res.redirect('/campgrounds');
         });
-        console.log(registeredUser);
         
     }
     catch (error) {

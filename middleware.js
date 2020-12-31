@@ -9,7 +9,7 @@ module.exports.isAuthorize = (req,res,next) => {
         req.flash('error', 'you must log in');
         return res.redirect('/login');
     }
-    console.log("authorized");
+    
     next();
 };
 
@@ -20,7 +20,6 @@ module.exports.isAuthorizeReview = (req,res,next) => {
         req.flash('error', 'You have logged out! you cannot leave a review');
         return res.redirect('/login');
     }
-    console.log("authorized");
     next();
 };
 
@@ -47,7 +46,6 @@ module.exports.validateIsCampgroundAuthor = async (req, res, next) => {
         req.flash('error', 'permission denied - not the author of the campground');
         return res.redirect(`/campgrounds/${id}`);
     }
-    console.log("is the author");
     next();    
 }
 
@@ -73,6 +71,5 @@ module.exports.validateIsReviewAuthor = async (req, res, next) => {
         req.flash('error', 'permission denied - not the author of the review');
         return res.redirect(`/campgrounds/${id}`);
     }
-    console.log("is the author");
     next();    
 }
