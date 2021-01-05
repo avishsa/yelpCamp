@@ -1,6 +1,6 @@
 mapboxgl.accessToken = mapboxToken;
 const map = new mapboxgl.Map({
-    container: 'map',
+    container: 'campground-map',
     style: 'mapbox://styles/mapbox/streets-v11', 
     center: campground.geometry.coordinates, // starting position [lng, lat]
     zoom: 9 // starting zoom
@@ -15,3 +15,4 @@ new mapboxgl.Marker()
 .setPopup(popup)
 .addTo(map);
 
+map.addControl(new mapboxgl.NavigationControl());
