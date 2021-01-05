@@ -7,9 +7,9 @@ const ImageSchema = new Schema({
     filename: String
 });
 ImageSchema.virtual('thumbnail').get(function () {
-    console.log(this);
     return this.url.replace('/upload', '/upload/w_200');
 })
+const opts = {toJSON:{virtuals:true}};
 const CampgroundSchema = new Schema({
     title: String,
     images: [ImageSchema],
@@ -35,8 +35,13 @@ const CampgroundSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'Review'
     }]
+},opts);
+CampgroundSchema.virtual('properties.popupMarker').get(function(){
+    return `
+        <strong><a href="/campgrounds/${this._id}">${this.title}</a></strong>
+        <p>${this.description.substring(0,20)}...</p>
+    `;
 });
-
 CampgroundSchema.post('findOneAndDelete', async (doc) => {
     console.log("delete campground!", doc);
     if (doc) {
