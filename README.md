@@ -1,7 +1,6 @@
 # Yelp - Camp
 
-Campgrounds' reviews management system .
-A node.js application that retrieve ejs pages. 
+A node.js application for campgrounds' reviews management system.
 ---
 
 ## What did i used?
