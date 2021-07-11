@@ -16,6 +16,7 @@ const CampgroundSchema = new Schema({
     price: Number,
     description: String,
     location: String,
+    datefield: Schema.Types.Date,
     geometry: {
         type: {
             type: String, 
