@@ -1,4 +1,5 @@
 const User = require('../models/user');
+const homepage ='/';
 module.exports.renderRegister = (req, res) => {
     res.render('users/register');
 };
@@ -12,7 +13,7 @@ module.exports.registerUser = async (req, res) => {
                 return next(err);
             }
             req.flash('success', 'Welcome to yelp camp');
-            res.redirect('/campgrounds');
+            res.redirect(homepage);
         });
         
     }
@@ -27,7 +28,7 @@ module.exports.renderLogin = (req, res) => {
 
 module.exports.loginUser =(req, res) => {
     req.flash('success','welcome back');
-    const redirectURL = req.session.returnTo || '/campgrounds';
+    const redirectURL = req.session.returnTo || homepage;
     delete req.session.returnTo;
     res.redirect(redirectURL);
 };
@@ -35,5 +36,5 @@ module.exports.loginUser =(req, res) => {
 module.exports.logoutUser = (req, res) => {
     req.logout();
     req.flash('success','goodbye');
-    res.redirect('/campgrounds');
+    res.redirect(homepage);
 };
