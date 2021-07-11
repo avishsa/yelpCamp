@@ -46,7 +46,7 @@ CampgroundSchema.virtual('properties.popupMarker').get(function(){
 CampgroundSchema.post('findOneAndDelete', async (doc) => {
     console.log("delete campground!", doc);
     if (doc) {
-        await Review.remove({
+        await Review.deleteOne({
             _id: {
                 $in: doc.reviews
             }
