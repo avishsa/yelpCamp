@@ -1,5 +1,5 @@
 const User = require('../models/user');
-const homepage ='/';
+const homepage ='/campgrounds';
 module.exports.renderRegister = (req, res) => {
     res.render('users/register');
 };
